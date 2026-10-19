@@ -21,8 +21,9 @@ h3{font-size:1.2rem}
 .kicker{margin:0 0 14px;font-weight:700;color:var(--cerv-t);text-transform:uppercase;letter-spacing:.12em;font-size:.82rem}
 .lead,.uvod{font-size:1.15rem;max-width:60ch;color:#3a3a3a}
 .hero{background:var(--svetla)}
-.hero-g{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center;padding-top:clamp(40px,6vw,84px);padding-bottom:clamp(40px,6vw,76px)}
-.hero-foto img{width:100%;border:1px solid var(--okraj);background:#fff}
+.hero-g{padding-top:clamp(40px,6vw,84px);padding-bottom:clamp(24px,4vw,40px)}
+.hero-foto{padding-bottom:clamp(28px,4vw,48px)}
+.hero-foto img{width:100%;max-width:1100px;margin:0 auto;background:#fff}
 .cta{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 0}
 .tlacitko{display:inline-block;background:var(--cerv);color:#fff;text-decoration:none;font-weight:700;padding:14px 26px;border:2px solid var(--cerv);text-transform:uppercase;letter-spacing:.04em;font-size:.95rem}
 .tlacitko:hover{background:var(--cerv-t);border-color:var(--cerv-t)}
@@ -63,6 +64,6 @@ address{font-style:normal}
 .formular-stav{margin:0;font-size:.9rem;color:#555}
 .paticka{background:var(--cern);color:#ddd;padding:30px 0;font-size:.92rem}
 .paticka .wrap{display:flex;flex-wrap:wrap;gap:8px 32px}.paticka p{margin:0}.paticka a{color:#fff}
-@media(max-width:900px){.hero-g,.dva{grid-template-columns:1fr;gap:32px}.produkty{grid-template-columns:repeat(2,1fr)}.hlavicka .wrap{flex-wrap:wrap;padding-top:8px;padding-bottom:8px}.hlavicka nav{gap:4px 16px}}
+@media(max-width:900px){.dva{grid-template-columns:1fr;gap:32px}.produkty{grid-template-columns:repeat(2,1fr)}.hlavicka .wrap{flex-wrap:wrap;padding-top:8px;padding-bottom:8px}.hlavicka nav{gap:4px 16px}}
 @media(max-width:480px){body{font-size:16px}.logo img{height:44px}.hlavicka nav a{font-size:13px}.tlacitko{width:100%;text-align:center}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
