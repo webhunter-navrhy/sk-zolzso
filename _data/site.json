@@ -1,0 +1,30 @@
+{
+  "slug": "sk-zolzso",
+  "nazev": "ZOLZSO, spol. s r.o. – MotoZolzso.sk",
+  "url": "https://webhunter-navrhy.github.io/sk-zolzso/",
+  "base": "/sk-zolzso/",
+  "lang": "sk",
+  "popis": "Náhradné diely pre Babettu, Simson, Jawu a ČZ. Veľkoobchod, maloobchod a e-shop z Kolárova. Dielňa a renovácia mopedov Babetta.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "og-src.jpg",
+  "logo": "logo.png",
+  "theme_color": "#e2001a",
+  "typ": "AutoPartsStore",
+  "ico": "44240937",
+  "kontakt": {
+    "email": "info@motozolzso.sk",
+    "telefon": "0907 747 530",
+    "adresa": {"ulice": "Priemyselná oblasť 2970", "psc": "946 03", "mesto": "Kolárovo", "zeme": "SK"}
+  },
+  "oteviraci_doba": ["Mo-Fr 09:00-16:00"],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {"endpoint": "", "demo": true, "predmet": "Správa z webu motozolzso.sk"},
+  "nav": [
+    {"text": "Modely", "href": "#modely"},
+    {"text": "Sortiment", "href": "#sortiment"},
+    {"text": "Dielňa", "href": "#dielna"},
+    {"text": "Kontakt", "href": "#kontakt"}
+  ]
+}

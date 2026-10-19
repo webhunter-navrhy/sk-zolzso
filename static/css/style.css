@@ -1,0 +1,68 @@
+:root{--cerv:#e2001a;--cerv-t:#b80015;--cern:#141414;--sed:#8c8c8c;--svetla:#f3f2f0;--okraj:#e2e0dc;--text:#1d1d1d}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:#fff}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--cerv-t)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:99}
+.hlavicka{position:sticky;top:0;z-index:20;background:#fff;border-bottom:3px solid var(--cerv)}
+.hlavicka .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:72px}
+.logo{display:flex;align-items:center}
+.logo img{height:52px;width:auto}
+.hlavicka nav{display:flex;gap:6px 26px;flex-wrap:wrap}
+.hlavicka nav a{color:var(--cern);text-decoration:none;font-weight:600;font-size:15px;letter-spacing:.02em;text-transform:uppercase;padding:6px 0;border-bottom:2px solid transparent}
+.hlavicka nav a:hover{border-color:var(--cerv)}
+h1,h2,h3{line-height:1.12;margin:0 0 .5em;color:var(--cern);font-weight:800;letter-spacing:-.01em}
+h1{font-size:clamp(2.1rem,4.6vw,3.7rem);text-transform:uppercase}
+h2{font-size:clamp(1.7rem,3vw,2.4rem);text-transform:uppercase}
+h2::after{content:"";display:block;width:72px;height:6px;margin-top:12px;background:repeating-linear-gradient(90deg,var(--cern) 0 12px,#fff 12px 24px)}
+h3{font-size:1.2rem}
+.kicker{margin:0 0 14px;font-weight:700;color:var(--cerv-t);text-transform:uppercase;letter-spacing:.12em;font-size:.82rem}
+.lead,.uvod{font-size:1.15rem;max-width:60ch;color:#3a3a3a}
+.hero{background:var(--svetla)}
+.hero-g{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center;padding-top:clamp(40px,6vw,84px);padding-bottom:clamp(40px,6vw,76px)}
+.hero-foto img{width:100%;border:1px solid var(--okraj);background:#fff}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 0}
+.tlacitko{display:inline-block;background:var(--cerv);color:#fff;text-decoration:none;font-weight:700;padding:14px 26px;border:2px solid var(--cerv);text-transform:uppercase;letter-spacing:.04em;font-size:.95rem}
+.tlacitko:hover{background:var(--cerv-t);border-color:var(--cerv-t)}
+.tlacitko.druhe{background:transparent;color:var(--cern);border-color:var(--cern)}
+.tlacitko.druhe:hover{background:var(--cern);color:#fff}
+.pas{background:var(--cern);color:#fff;font-size:.95rem}
+.pas .wrap{display:flex;flex-wrap:wrap;gap:6px 36px;padding-top:12px;padding-bottom:12px}
+.sekce{padding:clamp(56px,9vw,112px) 0}
+.sekce.svetla{background:var(--svetla)}
+.dva{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.modely{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:36px}
+.model{border:1px solid var(--okraj);border-top:5px solid var(--cerv);padding:22px;background:#fff;display:flex;flex-direction:column}
+.model header{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+.model h3{margin:0;font-size:1.4rem}
+.model ul{list-style:none;margin:0 0 18px;padding:0;flex:1}
+.model li{padding:8px 0;border-bottom:1px dashed var(--okraj);font-size:.97rem}
+.sip{font-weight:700;text-decoration:none;color:var(--cerv-t)}.sip::after{content:" →"}
+.sip:hover{text-decoration:underline}
+.produkty{list-style:none;margin:36px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.produkty li{background:#fff;border:1px solid var(--okraj);padding:12px;display:flex;flex-direction:column;gap:10px}
+.produkty img{width:100%;aspect-ratio:1;object-fit:contain}
+.produkty span{font-size:.92rem;line-height:1.35;font-weight:600}
+.podnadpis{margin-top:48px}
+.stitky{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.stitky li{border:2px solid var(--cern);padding:7px 16px;font-weight:600;background:#fff}
+.zoznam{list-style:none;margin:0;padding:0;align-self:center}
+.zoznam li{padding:16px 0 16px 38px;border-bottom:1px solid var(--okraj);position:relative}
+.zoznam li::before{content:"";position:absolute;left:0;top:22px;width:18px;height:18px;background:var(--cerv);clip-path:polygon(0 0,100% 50%,0 100%)}
+address{font-style:normal}
+.mala{font-size:.9rem;color:#555}
+.formular{display:grid;gap:14px}
+.formular label{display:grid;gap:6px;font-weight:600;font-size:.93rem}
+.formular input,.formular textarea{font:inherit;padding:12px;border:1px solid #bdbab4;background:#fff;border-radius:0}
+.formular input:focus,.formular textarea:focus{outline:3px solid var(--cerv);outline-offset:0}
+.formular button{justify-self:start;font:inherit;font-weight:700;text-transform:uppercase;background:var(--cerv);color:#fff;border:0;padding:14px 30px;cursor:pointer}
+.formular button:hover{background:var(--cerv-t)}
+.past{position:absolute;left:-999px}
+.formular-stav{margin:0;font-size:.9rem;color:#555}
+.paticka{background:var(--cern);color:#ddd;padding:30px 0;font-size:.92rem}
+.paticka .wrap{display:flex;flex-wrap:wrap;gap:8px 32px}.paticka p{margin:0}.paticka a{color:#fff}
+@media(max-width:900px){.hero-g,.dva{grid-template-columns:1fr;gap:32px}.produkty{grid-template-columns:repeat(2,1fr)}.hlavicka .wrap{flex-wrap:wrap;padding-top:8px;padding-bottom:8px}.hlavicka nav{gap:4px 16px}}
+@media(max-width:480px){body{font-size:16px}.logo img{height:44px}.hlavicka nav a{font-size:13px}.tlacitko{width:100%;text-align:center}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

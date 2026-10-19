@@ -1,0 +1,6 @@
+[
+ {"nazev":"Babetta","logo":"babetta.png","kat":["Motor, karburátor, prevodovka","Rám a diely","Elektrické súčiastky","Riadenie – predná vidlica","Duše a pneumatiky","Náradie"]},
+ {"nazev":"Simson","logo":"simson.png","kat":["Motor","Podvozok a diely","Elektronické zapaľovanie","Osvetlenie","Kolesá, náboj, brzdy","Sanie, karburátor"]},
+ {"nazev":"Jawa 50","logo":"jawa50.png","kat":["Motor, karburátor, prevodovka","Rám a diely","Elektrické súčiastky","Predná vidlica","Duše a pneumatiky","Sedlo, nádrž paliva"]},
+ {"nazev":"Jawa – ČZ","logo":"jawa-cz.png","kat":["Predná vidlica, rám a diely","Sanie, karburátor, motor, prevodovka","Elektrické súčiastky, zapaľovanie"]}
+]

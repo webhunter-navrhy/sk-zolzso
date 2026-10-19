@@ -1,0 +1,74 @@
+{% extends "_base.html" %}
+{% set titulek = 'MotoZolzso.sk – náhradné diely Babetta, Simson, Jawa, ČZ | Kolárovo' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-g">
+    <div>
+      <p class="kicker">Kolárovo · rodisko Babetty</p>
+      <h1>Náhradné diely pre Babettu, Simson, Jawu a ČZ</h1>
+      <p class="lead">Veľkoobchod, maloobchod a e-shop. Vyberiete si podľa modelu, my balíme a posielame domov. Vlastná dielňa v Kolárove robí renováciu mopedov Babetta.</p>
+      <p class="cta"><a class="tlacitko" href="https://www.motozolzso.sk" rel="noopener">Do e-shopu</a> <a class="tlacitko druhe" href="#modely">Vybrať podľa modelu</a></p>
+    </div>
+    <div class="hero-foto">{{ img('stroje.jpg', 'Jawa 50, Jawa 20 a Jawa 350', sizes='(min-width: 900px) 50vw, 100vw', eager=True) }}</div>
+  </div>
+  <div class="pas"><div class="wrap"><span>Infolinka a sklad: Po – Pi 9:00 – 16:00</span><span>{{ site.kontakt.telefon }}</span><span>{{ site.kontakt.email }}</span></div></div>
+</section>
+
+<section class="sekce" id="modely">
+  <div class="wrap">
+    <h2>Vyberte si model</h2>
+    <p class="uvod">Katalóg je rozdelený podľa modelu a skupiny dielov, ako ho poznáte z dielne: motor, rám, elektrika, kolesá.</p>
+    <div class="modely">
+      {% for m in data.modely %}
+      <article class="model">
+        <header><img src="{{ base }}m-{{ m.logo }}" alt="" width="64" height="64"><h3>{{ m.nazev }}</h3></header>
+        <ul role="list">{% for k in m.kat %}<li>{{ k }}</li>{% endfor %}</ul>
+        <a class="sip" href="https://www.motozolzso.sk" rel="noopener">Diely {{ m.nazev }} v e-shope</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sekce svetla" id="sortiment">
+  <div class="wrap">
+    <h2>Z regálov skladu</h2>
+    <p class="uvod">Ukážka z ponuky, aby bolo jasné, čo tu nájdete.</p>
+    <ul class="produkty" role="list">
+      {% for p in data.produkty %}<li>{{ img(p.foto, p.nazev, sizes='(min-width: 900px) 25vw, 50vw') }}<span>{{ p.nazev }}</span></li>{% endfor %}
+    </ul>
+    <h3 class="podnadpis">A ešte</h3>
+    <ul class="stitky" role="list">{% for d in data.dalsie %}<li>{{ d }}</li>{% endfor %}</ul>
+  </div>
+</section>
+
+<section class="sekce" id="dielna">
+  <div class="wrap dva">
+    <div>
+      <h2>Dielňa – servis</h2>
+      <p class="uvod">Profesionálne vybavená dielňa v rodisku Babetty.</p>
+    </div>
+    <ul class="zoznam" role="list">{% for d in data.dielna %}<li>{{ d }}</li>{% endfor %}</ul>
+  </div>
+</section>
+
+<section class="sekce svetla" id="kontakt">
+  <div class="wrap dva">
+    <div>
+      <h2>Kontakt</h2>
+      <address>
+        <strong>Zolzso, spol. s r.o.</strong><br>
+        Priemyselná oblasť 2970<br>946 03 Kolárovo<br>
+        <span class="mala">E-shop – sklad v areáli spoločnosti Guta Service</span><br><br>
+        Otázky k objednávkam a reklamácie:<br><a href="tel:0907747530">0907 747 530</a><br>
+        E-shop, pomoc: <a href="tel:0905417106">0905 417 106</a><br>
+        <a href="mailto:info@motozolzso.sk">info@motozolzso.sk</a><br>
+        Infolinka a sklad: Po – Pi 9:00 – 16:00
+      </address>
+      <p class="mala">IČO 44240937 · DIČ 2022642479 · IČ DPH SK2022642479<br>Sídlo: Rábska 871/91, 946 03 Kolárovo</p>
+    </div>
+    <div>{% include "_formular.html" %}</div>
+  </div>
+</section>
+{% endblock %}
