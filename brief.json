@@ -1,0 +1,31 @@
+{
+ "slug": "zolzso",
+ "zdroj_url": "https://www.motozolzso.sk",
+ "firma": "ZOLZSO, spol. s r.o. (MotoZolzso)",
+ "obor": [
+  "náhradné diely na mopedy Babetta, Simson, Jawa",
+  "e-shop / veľkoobchod",
+  "dielňa – renovácie Babett"
+ ],
+ "kontakty": {
+  "emaily": [
+   "info@motozolzso.sk"
+  ],
+  "telefony": [
+   "0907 747 530",
+   "0905 417 106"
+  ],
+  "adresa": "Priemyselná oblasť 2970, 946 03 Kolárovo"
+ },
+ "logo": {
+  "soubor": "static/logo.png",
+  "zdroj": "https://www.motozolzso.sk"
+ },
+ "barvy": {
+  "z_loga": [
+   "#e2001a",
+   "#141414"
+  ]
+ },
+ "fakta": "Všetko z e-shopu motozolzso.sk k 23. 10. 2026: kategórie dielov, 18 repasovaných Babett od 1 537,50 € do 2 152,50 € s DPH. Žiadne vymyslené čísla ani reference. Fotky produktov sú z e-shopu klienta, fotky realizácií doplní klient."
+}

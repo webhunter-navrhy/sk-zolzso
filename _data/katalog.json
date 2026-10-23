@@ -1,0 +1,177 @@
+[
+ {
+  "id": "babetta",
+  "nazev": "Babetta",
+  "logo": "babetta.png",
+  "skupiny": [
+   {
+    "n": "Motor, karburátor, prevodovka",
+    "p": [
+     "Skriňa motora",
+     "Kľukový mechanizmus",
+     "Valec s hlavou",
+     "Sanie",
+     "Karburátor DELLORTO",
+     "Karburátor JIKOV",
+     "Výfuk",
+     "Spojka",
+     "Prevody",
+     "Šlapadlový prevod",
+     "Štartovací mechanizmus"
+    ]
+   },
+   {
+    "n": "Rám a diely",
+    "p": [
+     "Rám",
+     "Zadné teleskopy",
+     "Kolesá",
+     "Predná vidlica",
+     "Riadidlá",
+     "Kryty, nádrž, sedadlo"
+    ]
+   },
+   {
+    "n": "Elektrické súčiastky",
+    "p": [
+     "Alternátor",
+     "Svetlomet",
+     "Zapaľovanie",
+     "Zadná lampa",
+     "Smerovka"
+    ]
+   },
+   {
+    "n": "Ostatné",
+    "p": [
+     "Riadenie – predná vidlica",
+     "Duše a pneumatiky",
+     "Náradie"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "simson",
+  "nazev": "Simson",
+  "logo": "simson.png",
+  "skupiny": [
+   {
+    "n": "Podvozok a diely",
+    "p": [
+     "Rám",
+     "Spodná časť rámu",
+     "Schránky",
+     "Nádrž",
+     "Sedadlo, nosič",
+     "Blatníky",
+     "Teleskopická vidlica",
+     "Riadidlá",
+     "Teleskopické tlmiče",
+     "Kolesá",
+     "Náboj kolesa, brzdy",
+     "Pohon zadného kolesa"
+    ]
+   },
+   {
+    "n": "Motor, karburátor, prevodovka",
+    "p": [
+     "Motor",
+     "Výfuk",
+     "Skriňa motora",
+     "Veko skrine, pohon rýchlomeru",
+     "Valec",
+     "Kľukový hriadeľ",
+     "Primárny prevod, spojka",
+     "Ovládanie spojky, spojkový hriadeľ",
+     "Hnaný hriadeľ",
+     "Radiace ústrojenstvo",
+     "Spúšťacie ústrojenstvo",
+     "Sanie, karburátor",
+     "Diely karburátora"
+    ]
+   },
+   {
+    "n": "Elektrické súčiastky",
+    "p": [
+     "Elektronické zapaľovanie",
+     "Osvetlenie",
+     "Diely nabíjania, ovládanie el. spotrebičov, bzučiak",
+     "Rýchlomer, zrkadlá"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "jawa50",
+  "nazev": "Jawa 50",
+  "logo": "jawa50.png",
+  "typy": "05 / 20 / 21 / 23 / 550 / 555",
+  "skupiny": [
+   {
+    "n": "Motor, karburátor, prevodovka",
+    "p": [
+     "Skriňa motora",
+     "Kľukové ústrojenstvo",
+     "Valec s hlavou",
+     "Tlmič sania s čističom vzduchu",
+     "Tlmič výfuku s kolenom",
+     "Karburátor",
+     "Prevody",
+     "Nožné zasúvanie prevodových stupňov",
+     "Spojka a vypínanie spojky"
+    ]
+   },
+   {
+    "n": "Rám a diely",
+    "p": [
+     "Rám",
+     "Stupačky a stojan",
+     "Zadné teleskopy",
+     "Kryty",
+     "Predný blatník",
+     "Predná vidlica",
+     "Riadidlá s lanovodmi",
+     "Predné koleso",
+     "Zadné koleso a náhon rýchlomeru",
+     "Sedlo, nádrž paliva"
+    ]
+   },
+   {
+    "n": "Elektrické súčiastky",
+    "p": [
+     "Elektrická inštalácia",
+     "Zapaľovanie",
+     "Prepínač svetiel",
+     "Svetlomet, zadná lampa"
+    ]
+   },
+   {
+    "n": "Ostatné",
+    "p": [
+     "Duše a pneumatiky"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "jawacz",
+  "nazev": "Jawa – ČZ",
+  "logo": "jawa-cz.png",
+  "typy": "150 / 175 / 250 / 350",
+  "skupiny": [
+   {
+    "n": "Predná vidlica, rám a diely",
+    "p": []
+   },
+   {
+    "n": "Sanie, karburátor, motor, prevodovka",
+    "p": []
+   },
+   {
+    "n": "Elektrické súčiastky, zapaľovanie",
+    "p": []
+   }
+  ]
+ }
+]

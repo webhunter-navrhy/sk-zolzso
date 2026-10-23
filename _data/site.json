@@ -15,16 +15,40 @@
   "kontakt": {
     "email": "info@motozolzso.sk",
     "telefon": "0907 747 530",
-    "adresa": {"ulice": "Priemyselná oblasť 2970", "psc": "946 03", "mesto": "Kolárovo", "zeme": "SK"}
+    "adresa": {
+      "ulice": "Priemyselná oblasť 2970",
+      "psc": "946 03",
+      "mesto": "Kolárovo",
+      "zeme": "SK"
+    },
+    "telefon2": "0905 417 106"
   },
-  "oteviraci_doba": ["Mo-Fr 09:00-16:00"],
+  "oteviraci_doba": [
+    "Mo-Fr 09:00-16:00"
+  ],
   "sameas": [],
   "cenove_rozpeti": "",
-  "formular": {"endpoint": "", "demo": true, "predmet": "Správa z webu motozolzso.sk"},
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Správa z webu motozolzso.sk"
+  },
   "nav": [
-    {"text": "Modely", "href": "#modely"},
-    {"text": "Sortiment", "href": "#sortiment"},
-    {"text": "Dielňa", "href": "#dielna"},
-    {"text": "Kontakt", "href": "#kontakt"}
+    {
+      "text": "Katalóg",
+      "href": "#katalog"
+    },
+    {
+      "text": "Dielňa",
+      "href": "#dielna"
+    },
+    {
+      "text": "Sklad",
+      "href": "#sklad"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
   ]
 }

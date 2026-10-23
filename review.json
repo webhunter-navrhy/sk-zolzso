@@ -1,0 +1,16 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Mobil 390 px, hero (buňka 1): tahle výtka zůstává neopravená. Nadtitulek „KOLÁROVO · VEĽKOOBCHOD A E-SHOP“ pořád sedí zhruba 11–14 px pod červenou linkou hlavičky a je na ni nalepený. V mobilním breakpointu dát .hero padding-top: calc(výška hlavičky + 24px) a zkontrolovat, že ho nepřebíjí jiné pravidlo (pozdější .hero { padding } nebo padding-block u kontejneru). Ověřit na 390 i 360 px.",
+    "Dielňa v Kolárove, PC (buňka 3 → buňka 4): levý sloupec (H2, text, fotka, seznam služeb) je asi dvakrát vyšší než karta „Predaj repasovaných Babiet“. Pod kartou pak zůstává velká prázdná černá plocha vedle fotky i vedle celého seznamu služeb. Kartě dát position: sticky; top: výška hlavičky + 24px, aby jela vedle seznamu. Druhá možnost je zarovnat ji svisle k fotce (align-self: center). Fotku a seznam nechat vlevo.",
+    "Katalóg dielov, záložky modelů (PC buňka 2, mobil buňka 2): v aktivní černé záložce BABETTA je logo Babetty tmavé na černém pozadí, takže skoro není vidět. Ostatní záložky (Simson, Jawa 50, Jawa – ČZ) logo mají čitelné. V aktivním stavu dát logu světlou variantu nebo filter: brightness(0) invert(1)."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Výtka ke katalogu je opravená: skupina Motor, karburátor, prevodovka má položky ve dvou sloupcích po 6 řádcích. Rám a Elektrické súčiastky končí na stejné výšce a velká bílá plocha nad Dielňou zmizela.",
+    "Výtka k Dielni je opravená: přes celou šířku levého sloupce je fotka modré renovované Babetty, jiná než černá v hero. Na mobilu je pod textem.",
+    "Web je v klientově brandu: logo MotoZolzso vlevo, červená #e2001a s černou, vlastní fotky z e-shopu. Katalog podle modelu kopíruje strukturu e-shopu, na mobilu jako akordeon. Cena 18 Babett je pravdivá a uvádí datum i zdroj, kontakty a IČO sedí s briefem."
+  ],
+  "verdikt": "Dvě ze tří výtek (katalog a fotka v Dielni) jsou opravené dobře a nová závažná vada se neobjevila. Nadtitulek v mobilním hero je ale pořád nalepený pod hlavičkou, proto zůstává 7, opravit.",
+  "_hash": "9db4af0bf60326c98b8df7d26d6150c91e0f9e84"
+}
